@@ -1,0 +1,21 @@
+<ion-view view-title="欢迎光临火星度假村" id="tour-view">
+    <ion-nav-buttons side="right">
+        <a class="button button-clear" ui-sref="home" ng-if="isShow">进入</a>
+    </ion-nav-buttons>
+    <!--<ion-content>-->
+        <ion-slide-box on-slide-changed="onSlideChanged()">
+            <ion-slide>
+                <i class="icon slide-icon ion-fork"></i>
+                <h3>附近餐馆</h3>
+            </ion-slide>
+            <ion-slide>
+                <i class="icon slide-icon ion-document-text"></i>
+                <h3>我的预订</h3>
+            </ion-slide>
+            <ion-slide>
+                <i class="icon slide-icon ion-android-sunny"></i>
+                <h3>天气情况</h3>
+            </ion-slide>
+        </ion-slide-box>
+    <!--</ion-content>-->
+</ion-view>

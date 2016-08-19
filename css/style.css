@@ -1,0 +1,14 @@
+/******* tour ********/
+#tour-view .slider{
+    height: 100%;
+}
+
+#tour-view .slider-slide{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#tour-view .slide-icon{
+    font-size: 20em;
+}
+
